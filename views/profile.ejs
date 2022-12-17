@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Profile Page</title>
+</head>
+<body>
+    <!-- for getting data from the user -->
+    <h1>Hello <%=  data.name %> </h1>
+    <h1>Welcome To <%=  data.city %> </h1>
+    <ul>
+        <%  data.skills.forEach((item)=>{ %>
+            <li><%= item %></li>
+        <% }) %>
+    </ul>
+</body>
+</html>
