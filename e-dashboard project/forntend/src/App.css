@@ -1,0 +1,156 @@
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-ul {
+  width: 100%;
+  background: skyblue;
+  padding: 15px;
+  font-weight: 500;
+}
+
+.nav-ul li a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sign,
+.login,
+.add {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  ;
+}
+
+.sign input,
+.login input,
+.addProduct input {
+  width: 300px;
+  padding: 10px;
+  background: none;
+  border-radius: 5px;
+  border: 1px solid skyblue;
+  margin-bottom: 20px;
+}
+
+.sign button,
+.login button,
+.addProduct button {
+  padding: 10px;
+  width: 300px;
+  background: skyblue;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.invalid-input {
+  margin-top: -20px;
+  margin-left: -150px;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.invalid-input.price{
+  margin-left: -185px;
+}
+
+.footer {
+  background: skyblue;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.signpage {
+  text-align: right;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  float: left;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-list ul {
+  margin: 0;
+}
+
+.product-list h3{
+  margin-bottom: 15px;
+}
+
+.product-list ul li{
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.heading {
+  margin: 15px 0;
+}
+
+.searchInput{
+  width: 400px;
+  height: 40px;
+  font-size: 1rem;
+  border: 1px solid skyblue;
+  border-radius: 50px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  outline: none;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
